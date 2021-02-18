@@ -1,0 +1,129 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.potfulio-bg-1{
+    background-image: url(img/potfulio1.jpg);
+}.potfulio-bg-2{
+    background-image: url(img/potfulio2.jpg);
+}.potfulio-bg-3{
+    background-image: url(img/potfulio3.jpg);
+}.potfulio-bg-4{
+    background-image: url(img/potfulio4.jpg);
+}.potfulio-bg-5{
+    background-image: url(img/potfulio5.jpg);
+}.potfulio-bg-6{
+    background-image: url(img/potfulio6.jpg);
+}
+.potfulio-bg {
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+    z-index: 1;
+}
+.filter-project {
+  margin: 0 0 50px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.filter-project li {
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #8e8e8e;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.filter-project li.active {
+    border-bottom: 2px solid #22bbc0;
+    color: #22bbc0;
+}
+.portfulio-hover h6 {
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+.portfulio-hover {
+    text-align: center;
+    min-height: 120px;
+    box-shadow: 0 0 5px#ccc;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    position: absolute;
+    left: 17px;
+    bottom: 0;
+    width:89%;
+    z-index: 2;
+    color: #333;
+    background: #fff;
+}
+.portfulio-hover.larg {
+    width: 95%;
+}
+.portfulio-hover span {
+    display: block;
+    margin-top: 5px;
+}
+
+.portfulio-hover p {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.socila-link {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.socila-link a {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-color: #777;
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 50%;
+    transition: .2s;
+}
+.potfulio-bg.long {
+    height: 640px;
+}
+
+.single-potfulio-item {
+    margin-bottom: 20px;
+}
+.single-potfulio-item:hover .portfulio-hover {
+    opacity: 1;
+    visibility: visible;
+}
+.socila-link a:hover {
+    background: #22bbc0;
+}
+.potfulio-bg span {
+    color: #9a9a9a;
+    font-size: 17px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 4%;
+}
+/*========================   Nav manu ==================*/
+
+
+
+
+
+
+
